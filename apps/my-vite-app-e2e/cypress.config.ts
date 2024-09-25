@@ -12,8 +12,8 @@ export default defineConfig({
         production: 'pnpm exec nx run my-vite-app:preview',
       },
       ciWebServerCommand: 'pnpm exec nx run my-vite-app:preview',
-      ciBaseUrl: 'http://localhost:4300',
+      ciBaseUrl: 'https://localhost:4300',
     }),
-    baseUrl: 'http://localhost:4200',
+    baseUrl: 'https://localhost:4200',
   },
 });
