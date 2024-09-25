@@ -1,0 +1,10 @@
+{
+  "name": "my-vite-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/my-vite-app-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["my-vite-app"],
+  "// targets": "to see all targets run: nx show project my-vite-app-e2e --web",
+  "targets": {}
+}
